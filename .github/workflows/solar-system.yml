@@ -55,7 +55,7 @@ jobs:
           run: npm install
     
         - name: run code coverage
-          run: npm run coverage
+          run: npm run coed-coverage
           continue-on-error: true
           
         - name: Archive Test Result
