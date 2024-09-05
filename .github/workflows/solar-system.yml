@@ -39,7 +39,7 @@ jobs:
             name: Mocha-Test-Result
             path: test-results.xml
 
-    unit-testing:
+    code-coverage:
         name: code-coverage
         runs-on: ubuntu-latest
         steps:
